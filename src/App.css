@@ -18,6 +18,16 @@ body {
   margin: 0;
   font-family: 'Lato', sans-serif;
 }
+body-dark {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
 
 .container {
   margin: 30px auto;
@@ -42,11 +52,12 @@ h4 {
 
 .inc-exp-container {
   background-color: #fff;
-  box-shadow: var(--box-shadow);
-  padding: 20px;
+  padding: 24px;
+  border-radius: 15px 50px;
   display: flex;
   justify-content: space-between;
   margin: 20px 0;
+  box-shadow: 8px 10px 10px rgba(0,0,0,0.5), inset 8px 10px 10px rgba(255,255,255,0.75);
 }
 
 .inc-exp-container > div {
@@ -124,6 +135,7 @@ input[type='number'] {
 
 .list li.plus {
   border-right: 5px solid #2ecc71;
+  box-shadow: 1px 3px 7px rgba(0,0,0,0.5), inset 8px 10px 10px rgba(255,255,255,0.75);
 }
 
 .list li.minus {
