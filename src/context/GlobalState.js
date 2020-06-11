@@ -3,7 +3,7 @@ import AppReducer from './AppReducer';
 //Initial state
 const initialState={
     transactions:[
-  
+        { id: 1, text: 'Salary', amount: 20 },
     
     ]
 }
